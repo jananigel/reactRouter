@@ -1,0 +1,9 @@
+#dependencies
+/node_modules
+
+#git
+.git
+
+#system files
+.DS_Store
+Thumbs.db
