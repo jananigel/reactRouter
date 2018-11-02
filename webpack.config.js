@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
     entry: './src/app/index.jsx',
     output: {
         path: __dirname + '/dist',
@@ -19,5 +19,6 @@ module.export = {
             }
         ]
     },
-    resolve: { extensions: ['*', '.js', '.jsx', '.css'] }
+    resolve: { extensions: ['*', '.js', '.jsx', '.css'] },
+    devServer: { contentBase: './dist' }
 };
